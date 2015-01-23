@@ -23,6 +23,28 @@ and Blueprint http://www.blueprintcss.org/
 
 /* =Fonts
 -------------------------------------------------------------- */
+#logo {
+ float:left;
+ height: 256px;
+ width: 256px;
+ position: absolute;
+ top: 40px;
+ left: 325px;
+}
+#logo2 {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+ float:right;
+ height: 256px;
+ width: 256px;
+ position: absolute;
+ top: 40px;
+ right: 325px;
+}
 
 @font-face {
     font-family: 'ChunkFiveRegular';
@@ -502,7 +524,7 @@ a:active {
 }
 .site-slider{
 	width:100%;
-	background:url(images/alexandria/header_overlay.png) top center no-repeat, url(images/alexandria/header_bg.jpg);
+	background:url(images/alexandria/88706.jpg) top center no-repeat, url(images/alexandria/88706.jpg);
 }
 .site-main{
 	width:100%;

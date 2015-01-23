@@ -72,8 +72,10 @@
             	<?php if( of_get_option('logo_image') ) : ?>
                 	<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo of_get_option('logo_image'); ?>" /></a>
                 <?php else : ?>
+						<img id="logo" src="wp-content\themes\alexandria\images\site_header.png" alt="logo de BabeDit"/>
+						<img id="logo2" src="wp-content\themes\alexandria\images\site_header.png" alt="logo de BabeDit"/>
                         <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-                        <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
                 <?php endif; ?>
                 
             </div>
