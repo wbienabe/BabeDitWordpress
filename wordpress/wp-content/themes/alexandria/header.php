@@ -29,7 +29,6 @@
         
        <div class="responsive-container">
             
-            
        </div>
         
     </div> 
@@ -53,10 +52,16 @@
                     
                 </div>
                 
-            </div>
             
+				<div class="logo">        
+
+					<!-- <img height="42" width="42" src="https://lh4.googleusercontent.com/5UcvFb-qPPaoUK8RSM1_FjYfzddRi9_gtoY_eVZ-zMnC5fdbXEtOMI57PlUPiyk3YRZ92Rchu8I=w1576-h655" alt="tab" /> -->
+					<img  src="wp-content\themes\alexandria\images\logo.png" alt="tab" />
+				</div>
+			</div>
             <div class="site-header-half-width-nav">
-    
+
+
                 <nav id="site-navigation" class="main-navigation" role="navigation">
                     <div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'alexandria' ); ?>"><?php _e( 'Skip to content', 'alexandria' ); ?></a></div>
         
@@ -72,10 +77,8 @@
             	<?php if( of_get_option('logo_image') ) : ?>
                 	<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo of_get_option('logo_image'); ?>" /></a>
                 <?php else : ?>
-						<img id="logo" src="wp-content\themes\alexandria\images\site_header.png" alt="logo de BabeDit"/>
-						<img id="logo2" src="wp-content\themes\alexandria\images\site_header.png" alt="logo de BabeDit"/>
                         <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+                        <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
                 <?php endif; ?>
                 
             </div>

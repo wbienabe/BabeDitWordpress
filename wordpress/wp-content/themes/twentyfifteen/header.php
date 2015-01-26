@@ -10,7 +10,7 @@
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
-<head>
+<head> 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -22,7 +22,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); echo "CAHTTE CHATTE CAHTTE "; ?>>
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 
